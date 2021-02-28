@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21911" started-at="2021-02-24T14:41:06 MST" finished-at="2021-02-24T14:41:28 MST">
+  <suite name="Suite" duration-ms="26395" started-at="2021-02-27T22:52:48 MST" finished-at="2021-02-27T22:53:14 MST">
     <groups>
     </groups>
-    <test name="validatingText" duration-ms="14294" started-at="2021-02-24T14:41:06 MST" finished-at="2021-02-24T14:41:20 MST">
-      <class name="Academy.ValidatetextTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="initialize" is-config="true" duration-ms="11687" started-at="2021-02-24T14:41:06 MST" finished-at="2021-02-24T14:41:18 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testFeaturedCoursesText()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="testFeaturedCoursesText" duration-ms="163" started-at="2021-02-24T14:41:18 MST" finished-at="2021-02-24T14:41:18 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFeaturedCoursesText -->
-        <test-method status="PASS" signature="testVideoText()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="testVideoText" duration-ms="128" started-at="2021-02-24T14:41:18 MST" finished-at="2021-02-24T14:41:18 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVideoText -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="closeBrowser" is-config="true" duration-ms="2297" started-at="2021-02-24T14:41:18 MST" finished-at="2021-02-24T14:41:20 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Academy.ValidatetextTest -->
-    </test> <!-- validatingText -->
-    <test name="validating navigationbar" duration-ms="14553" started-at="2021-02-24T14:41:06 MST" finished-at="2021-02-24T14:41:20 MST">
+    <test name="validating navigationbar" duration-ms="16726" started-at="2021-02-27T22:52:48 MST" finished-at="2021-02-27T22:53:05 MST">
       <class name="Academy.ValidateNavigationBarTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateNavigationBarTest@4a8355dd]" name="initialize" is-config="true" duration-ms="12602" started-at="2021-02-24T14:41:06 MST" finished-at="2021-02-24T14:41:19 MST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateNavigationBarTest@4a8355dd]" name="initialize" is-config="true" duration-ms="13903" started-at="2021-02-27T22:52:48 MST" finished-at="2021-02-27T22:53:02 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="ValidateNavigationBarTest()[pri:0, instance:Academy.ValidateNavigationBarTest@4a8355dd]" name="ValidateNavigationBarTest" duration-ms="316" started-at="2021-02-24T14:41:19 MST" finished-at="2021-02-24T14:41:19 MST">
+        <test-method status="PASS" signature="ValidateNavigationBarTest()[pri:0, instance:Academy.ValidateNavigationBarTest@4a8355dd]" name="ValidateNavigationBarTest" duration-ms="369" started-at="2021-02-27T22:53:02 MST" finished-at="2021-02-27T22:53:02 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateNavigationBarTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.ValidateNavigationBarTest@4a8355dd]" name="closeBrowser" is-config="true" duration-ms="1629" started-at="2021-02-24T14:41:19 MST" finished-at="2021-02-24T14:41:20 MST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.ValidateNavigationBarTest@4a8355dd]" name="closeBrowser" is-config="true" duration-ms="2447" started-at="2021-02-27T22:53:02 MST" finished-at="2021-02-27T22:53:05 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Academy.ValidateNavigationBarTest -->
     </test> <!-- validating navigationbar -->
-    <test name="validating login" duration-ms="21911" started-at="2021-02-24T14:41:06 MST" finished-at="2021-02-24T14:41:28 MST">
-      <class name="Academy.HomepageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomepageTest@304bb45b]" name="initialize" is-config="true" duration-ms="7416" started-at="2021-02-24T14:41:06 MST" finished-at="2021-02-24T14:41:13 MST">
+    <test name="validatingText" duration-ms="16780" started-at="2021-02-27T22:52:48 MST" finished-at="2021-02-27T22:53:05 MST">
+      <class name="Academy.ValidatetextTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="initialize" is-config="true" duration-ms="13334" started-at="2021-02-27T22:52:48 MST" finished-at="2021-02-27T22:53:01 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testSignIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomepageTest@304bb45b]" name="testSignIn" duration-ms="8652" started-at="2021-02-24T14:41:13 MST" data-provider="getdata" finished-at="2021-02-24T14:41:22 MST">
+        <test-method status="PASS" signature="testFeaturedCoursesText()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="testFeaturedCoursesText" duration-ms="181" started-at="2021-02-27T22:53:01 MST" finished-at="2021-02-27T22:53:01 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFeaturedCoursesText -->
+        <test-method status="PASS" signature="testVideoText()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="testVideoText" duration-ms="68" started-at="2021-02-27T22:53:01 MST" finished-at="2021-02-27T22:53:01 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVideoText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.ValidatetextTest@231f98ef]" name="closeBrowser" is-config="true" duration-ms="3173" started-at="2021-02-27T22:53:01 MST" finished-at="2021-02-27T22:53:05 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.ValidatetextTest -->
+    </test> <!-- validatingText -->
+    <test name="validating login" duration-ms="26395" started-at="2021-02-27T22:52:48 MST" finished-at="2021-02-27T22:53:14 MST">
+      <class name="Academy.HomepageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomepageTest@304bb45b]" name="initialize" is-config="true" duration-ms="9346" started-at="2021-02-27T22:52:48 MST" finished-at="2021-02-27T22:52:57 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSignIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomepageTest@304bb45b]" name="testSignIn" duration-ms="9638" started-at="2021-02-27T22:52:57 MST" data-provider="getdata" finished-at="2021-02-27T22:53:07 MST">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignIn -->
-        <test-method status="PASS" signature="testSignIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomepageTest@304bb45b]" name="testSignIn" duration-ms="5049" started-at="2021-02-24T14:41:22 MST" data-provider="getdata" finished-at="2021-02-24T14:41:27 MST">
+        <test-method status="PASS" signature="testSignIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomepageTest@304bb45b]" name="testSignIn" duration-ms="6066" started-at="2021-02-27T22:53:07 MST" data-provider="getdata" finished-at="2021-02-27T22:53:13 MST">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignIn -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.HomepageTest@304bb45b]" name="closeBrowser" is-config="true" duration-ms="749" started-at="2021-02-24T14:41:27 MST" finished-at="2021-02-24T14:41:28 MST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.HomepageTest@304bb45b]" name="closeBrowser" is-config="true" duration-ms="1274" started-at="2021-02-27T22:53:13 MST" finished-at="2021-02-27T22:53:14 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

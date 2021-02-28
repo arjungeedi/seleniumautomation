@@ -4,11 +4,34 @@
   <listeners>
     <listener class-name="Academy.Listener"/>
   </listeners>
+  <test thread-count="5" verbose="0" name="validating navigationbar(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.ValidateNavigationBarTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="ValidateNavigationBarTest"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBarTest -->
+    </classes>
+  </test> <!-- validating navigationbar(failed) -->
+  <test thread-count="5" verbose="0" name="validating login(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.HomepageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testSignIn"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomepageTest -->
+    </classes>
+  </test> <!-- validating login(failed) -->
   <test thread-count="5" verbose="0" name="validatingText(failed)" parallel="tests">
     <classes>
       <class name="Academy.ValidatetextTest">
         <methods>
           <include name="initialize"/>
+          <include name="testFeaturedCoursesText"/>
           <include name="closeBrowser"/>
           <include name="testVideoText"/>
         </methods>

@@ -21,8 +21,8 @@ public Properties prop;
 		 prop= new Properties();
 		FileInputStream fis =new FileInputStream("C:\\Users\\srikg\\eclipse-workspace\\endtoendproject\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
-	// String browsername=prop.getProperty("browser");
-	   String browsername=System.getProperty("browser");
+	 String browsername=prop.getProperty("browser");
+	 //  String browsername=System.getProperty("browser");
 	 if(browsername.contains("chrome"))
 	 {
 		 System.setProperty("webdriver.chrome.driver","C:\\Users\\srikg\\Downloads\\chromedriver_win32\\chromedriver.exe");
