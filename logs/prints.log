@@ -1,0 +1,4 @@
+14:41:18.385 [TestNG-tests-1] INFO  resources.base - successfully validated text message
+14:41:19.324 [TestNG-tests-3] INFO  resources.base - navigation bar is displayed
+14:41:21.049 [TestNG-tests-2] INFO  resources.base - test1
+14:41:25.298 [TestNG-tests-2] INFO  resources.base - test2

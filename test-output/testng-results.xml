@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-24T12:24:12 MST" name="Suite" finished-at="2021-02-24T12:24:32 MST" duration-ms="19448">
+    <groups>
+    </groups>
+    <test started-at="2021-02-24T12:24:12 MST" name="validating navigationbar" finished-at="2021-02-24T12:24:25 MST" duration-ms="12666">
+      <class name="Academy.ValidateNavigationBarTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateNavigationBarTest@797501a]" started-at="2021-02-24T12:24:12 MST" name="initialize" finished-at="2021-02-24T12:24:23 MST" duration-ms="10119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ValidateNavigationBarTest()[pri:0, instance:Academy.ValidateNavigationBarTest@797501a]" started-at="2021-02-24T12:24:23 MST" name="ValidateNavigationBarTest" finished-at="2021-02-24T12:24:23 MST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNavigationBarTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.ValidateNavigationBarTest@797501a]" started-at="2021-02-24T12:24:23 MST" name="closeBrowser" finished-at="2021-02-24T12:24:25 MST" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.ValidateNavigationBarTest -->
+    </test> <!-- validating navigationbar -->
+    <test started-at="2021-02-24T12:24:12 MST" name="validatingText" finished-at="2021-02-24T12:24:25 MST" duration-ms="12692">
+      <class name="Academy.ValidatetextTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidatetextTest@51768776]" started-at="2021-02-24T12:24:12 MST" name="initialize" finished-at="2021-02-24T12:24:24 MST" duration-ms="11113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testFeaturedCoursesText()[pri:0, instance:Academy.ValidatetextTest@51768776]" started-at="2021-02-24T12:24:24 MST" name="testFeaturedCoursesText" finished-at="2021-02-24T12:24:24 MST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFeaturedCoursesText -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.ValidatetextTest@51768776]" started-at="2021-02-24T12:24:24 MST" name="closeBrowser" finished-at="2021-02-24T12:24:25 MST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.ValidatetextTest -->
+    </test> <!-- validatingText -->
+    <test started-at="2021-02-24T12:24:12 MST" name="validating login" finished-at="2021-02-24T12:24:32 MST" duration-ms="19448">
+      <class name="Academy.HomepageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomepageTest@29ad44e3]" started-at="2021-02-24T12:24:12 MST" name="initialize" finished-at="2021-02-24T12:24:19 MST" duration-ms="6809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testSignIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomepageTest@29ad44e3]" started-at="2021-02-24T12:24:19 MST" name="testSignIn" data-provider="getdata" finished-at="2021-02-24T12:24:27 MST" duration-ms="7635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method signature="testSignIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomepageTest@29ad44e3]" started-at="2021-02-24T12:24:27 MST" name="testSignIn" data-provider="getdata" finished-at="2021-02-24T12:24:31 MST" duration-ms="4131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.HomepageTest@29ad44e3]" started-at="2021-02-24T12:24:31 MST" name="closeBrowser" finished-at="2021-02-24T12:24:32 MST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.HomepageTest -->
+    </test> <!-- validating login -->
+  </suite> <!-- Suite -->
+</testng-results>
